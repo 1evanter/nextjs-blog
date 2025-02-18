@@ -28,5 +28,107 @@
        "name": "dear-john",
        "header": "Dear John (Taylor's Version)",
        "spotifyPlays": "127,633,374"
+    },
+    {
+        "id" : "6",
+       "name": "mean",
+       "header": "Mean (Taylor's Version)",
+       "spotifyPlays": "119,226,298"
+    },
+    {
+        "id" : "7",
+       "name": "the-story-of-us",
+       "header": "The Story Of Us (Taylor's Version)",
+       "spotifyPlays": "120,016,195"
+    },
+    {
+        "id" : "8",
+       "name": "never-grow-up",
+       "header": "Never Grow Up (Taylor's Version)",
+       "spotifyPlays": "70,878,104"
+    },
+    {
+        "id" : "9",
+       "name": "enchanted",
+       "header": "Enchanted (Taylor's Version)",
+       "spotifyPlays": "384,398,194"
+    },
+    {
+        "id" : "10",
+       "name": "better-than-revenge",
+       "header": "Better Than Revenge (Taylor's Version)",
+       "spotifyPlays": "154,777,045"
+    },
+    {
+        "id" : "11",
+       "name": "innocent",
+       "header": "Innocent (Taylor's Version)",
+       "spotifyPlays": "56,525,648"
+    },
+    {
+        "id" : "12",
+       "name": "haunted",
+       "header": "Haunted (Taylor's Version)",
+       "spotifyPlays": "101,298,957"
+    },
+    {
+        "id" : "13",
+       "name": "last-kiss",
+       "header": "Last Kiss (Taylor's Version)",
+       "spotifyPlays": "102,710,614"
+    },
+    {
+        "id" : "14",
+       "name": "long-live",
+       "header": "Long Live (Taylor's Version)",
+       "spotifyPlays": "68,193,520"
+    },
+    {
+        "id" : "15",
+       "name": "ours",
+       "header": "Ours (Taylor's Version)",
+       "spotifyPlays": "68,193,520"
+    },
+    {
+        "id" : "16",
+       "name": "superman",
+       "header": "Superman (Taylor's Version)",
+       "spotifyPlays": "48,185,960"
+    },
+    {
+        "id" : "17",
+       "name": "electric-touch",
+       "header": "Electric Touch (Taylor's Version) [From The Vault] (Ft. Fall Out Boy)",
+       "spotifyPlays": "103,032,562"
+    },
+    {
+        "id" : "18",
+       "name": "when-emma-falls-in-love",
+       "header": "When Emma Falls in Love (Taylor's Version) [From The Vault]",
+       "spotifyPlays": "94,859,111"
+    },
+    {
+        "id" : "19",
+       "name": "i-can-see-you",
+       "header": "I Can See You (Taylor's Version) [From The Vault]",
+       "spotifyPlays": "293,465,511"
+    },
+    {
+        "id" : "20",
+       "name": "castles-crumbling",
+       "header": "Castles Crumbling (Taylor's Version) [From The Vault] (Ft. Hayley Williams)",
+       "spotifyPlays": "99,031,554"
+    },
+    {
+        "id" : "21",
+       "name": "foolish-one",
+       "header": "Foolish One (Taylor's Version) [From The Vault]",
+       "spotifyPlays": "112,890,902"
+    },
+    {
+        "id" : "22",
+       "name": "timeless",
+       "header": "Timeless (Taylor's Version) [From The Vault]",
+       "spotifyPlays": "105,184,355"
     }
 ]
