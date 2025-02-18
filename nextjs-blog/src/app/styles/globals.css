@@ -1,6 +1,6 @@
 @import url('./variables.css');
 
 body {
-    background-color: var(--bg-color, lightblue);
-    color: var(--txt-color-main, navy)
+    background-color: var(--bg-color, rgb(242, 184, 242));
+    color: var(--txt-color-main, purple)
 }
