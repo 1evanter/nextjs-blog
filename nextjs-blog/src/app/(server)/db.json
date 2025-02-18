@@ -1,27 +1,32 @@
 [
     {
         "id" : "1",
-       "name": "Mine (Taylor's Version)",
+       "name": "mine",
+       "header": "Mine (Taylor's Version)",
        "spotifyPlays": "220,802,745"
     },
     {
         "id" : "2",
-       "name": "Sparks Fly (Taylor's Version)",
+       "name": "sparks-fly",
+       "header": "Sparks Fly (Taylor's Version)",
        "spotifyPlays": "150,862,926"
     },
     {
         "id" : "3",
-       "name": "Back To December (Taylor's Version)",
+       "name": "back-to-december",
+       "header": "Back To December (Taylor's Version)",
        "spotifyPlays": "240,494,034"
     },
     {
         "id" : "4",
-       "name": "Speak Now (Taylor's Version)",
+       "name": "speak-now",
+       "header": "Speak Now (Taylor's Version)",
        "spotifyPlays": "123,477,056"
     },
     {
         "id" : "5",
-       "name": "Dear John (Taylor's Version)",
+       "name": "dear-john",
+       "header": "Dear John (Taylor's Version)",
        "spotifyPlays": "127,633,374"
     }
 ]
