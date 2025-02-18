@@ -2,7 +2,7 @@ import { getAllSongs } from "./(server)/api";
 import { AppLink } from "./shared/components/app-link";
 import { SongPreview } from "./SongPreview";
 
-const SONGS_PER_PAGE = 2;
+const SONGS_PER_PAGE = 6;
 
 export default async function Home({ searchParams }: { searchParams: Record<string, string> }) {
   
