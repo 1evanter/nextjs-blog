@@ -1,6 +1,6 @@
 import { getAllSongs } from "./(server)/api";
-import { ROUTING } from "./routing";
 import { AppLink } from "./shared/components/app-link";
+import { SongPreview } from "./SongPreview";
 
 const SONGS_PER_PAGE = 2;
 
@@ -20,7 +20,7 @@ export default async function Home({ searchParams }: { searchParams: Record<stri
       <p>Page {page}</p>
       <ul>
         {songs.map(song => <li key={song.id}>
-          <AppLink href={ROUTING.song(song.name)}>{song.header}</AppLink> 
+          <SongPreview name={song.name} header={song.header} />
           <p>{song.spotifyPlays}</p>
         </li>)}
       </ul>
@@ -28,3 +28,5 @@ export default async function Home({ searchParams }: { searchParams: Record<stri
     </>
   );
 }
+
+
