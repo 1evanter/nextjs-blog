@@ -3,7 +3,7 @@ import songs from './db.json'
 import { delayed } from './delay'
 
 export function getAllSongs() {
-    return delayed(songs)
+    return delayed(songs, {timeout: 0})
 }
 
 export function getSongByName(songName: string) {
