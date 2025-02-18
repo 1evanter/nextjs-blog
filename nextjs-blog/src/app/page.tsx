@@ -17,10 +17,10 @@ export default async function Home({ searchParams }: { searchParams: Record<stri
   return (
     <>
       <h1>{"Speak Now (Taylor's Version) album"}</h1>
-      <p>Page { page}</p>
+      <p>Page {page}</p>
       <ul>
         {songs.map(song => <li key={song.id}>
-          <AppLink href={ROUTING.song(song.name)}>{song.name}</AppLink> 
+          <AppLink href={ROUTING.song(song.name)}>{song.header}</AppLink> 
           <p>{song.spotifyPlays}</p>
         </li>)}
       </ul>
