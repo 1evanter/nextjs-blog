@@ -1,6 +1,12 @@
-export default function SongsPage({params}: Params) {
+import { getSongByName } from "@/app/(server)/api";
+
+export default async function SongsPage({params}: Params) {
     // const { params } = props;
     const { songName } = params;
+    const song = await getSongByName(songName);
 
-    return <>THIS IS SONG: { songName}</>
+
+    return <>
+        <h1>{song.header}</h1>
+    </>
 }
