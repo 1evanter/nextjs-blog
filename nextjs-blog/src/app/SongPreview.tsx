@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ROUTING } from "./routing";
 import { AppLink } from "./shared/components/app-link";
 
@@ -10,12 +10,28 @@ type SongPreviewProps = {
   name: string;
   header: string;
 };
+
+const getLikeKey = (songName: string) => `speak_now_album_like_${songName}`
+
 export function SongPreview({ name, header }: SongPreviewProps) {
   const [liked, setLiked] = useState(false);
+  useEffect(() => {
+   const likeKey = getLikeKey(name);
+    const likeValue = localStorage.getItem(likeKey);
+    setLiked(likeValue === 'like')
+  }, [name])
+
+  const like = () => {
+    const likeKey = getLikeKey(name);
+    localStorage.setItem(likeKey, 'like');
+    setLiked(true);
+  }
+  
+  
   return (
     <>
       <AppLink href={ROUTING.song(name)}>{header}</AppLink>
-      <button type="button" onClick={() => setLiked(true)}>{liked ? "💜" : "like"}</button>
+      <button type="button" onClick={like}>{liked ? "💜" : "like"}</button>
     </>
   );
 }
